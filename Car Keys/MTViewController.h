@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MTViewController : UIViewController
+#import "MTCarKeyiBeaconMonitor.h"
 
+@interface MTViewController : UIViewController
+@property (readonly) MTCarKeyiBeaconMonitor *monitor;
+- (id)initWithMonitor:(MTCarKeyiBeaconMonitor *)monitor;
 @end

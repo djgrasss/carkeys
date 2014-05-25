@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103EDBCE1932A12C0054AC37 /* MTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 103EDBCD1932A12C0054AC37 /* MTViewController.xib */; };
 		10F03D9D19328D7400253288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F03D9C19328D7400253288 /* Foundation.framework */; };
 		10F03D9F19328D7400253288 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F03D9E19328D7400253288 /* CoreGraphics.framework */; };
 		10F03DA119328D7400253288 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F03DA019328D7400253288 /* UIKit.framework */; };
 		10F03DA719328D7400253288 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10F03DA519328D7400253288 /* InfoPlist.strings */; };
 		10F03DA919328D7400253288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F03DA819328D7400253288 /* main.m */; };
 		10F03DAD19328D7400253288 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F03DAC19328D7400253288 /* MTAppDelegate.m */; };
-		10F03DB019328D7400253288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F03DAE19328D7400253288 /* Main.storyboard */; };
 		10F03DB319328D7400253288 /* MTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F03DB219328D7400253288 /* MTViewController.m */; };
 		10F03DB519328D7400253288 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F03DB419328D7400253288 /* Images.xcassets */; };
 		10F03DBC19328D7500253288 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F03DBB19328D7500253288 /* XCTest.framework */; };
@@ -21,6 +21,9 @@
 		10F03DBE19328D7500253288 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F03DA019328D7400253288 /* UIKit.framework */; };
 		10F03DC619328D7500253288 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10F03DC419328D7500253288 /* InfoPlist.strings */; };
 		10F03DC819328D7500253288 /* Car_KeysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F03DC719328D7500253288 /* Car_KeysTests.m */; };
+		10F03DD319328DEE00253288 /* MTCarKeyiBeaconMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F03DD219328DEE00253288 /* MTCarKeyiBeaconMonitor.m */; };
+		10F03DD5193295E800253288 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 10F03DD4193295E800253288 /* Podfile */; };
+		32D984052C8743C39956AE17 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9542B3399A1C47E2A477899D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		103EDBCD1932A12C0054AC37 /* MTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTViewController.xib; sourceTree = "<group>"; };
 		10F03D9919328D7400253288 /* Car Keys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Keys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F03D9C19328D7400253288 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		10F03D9E19328D7400253288 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +48,6 @@
 		10F03DAA19328D7400253288 /* Car Keys-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Car Keys-Prefix.pch"; sourceTree = "<group>"; };
 		10F03DAB19328D7400253288 /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
 		10F03DAC19328D7400253288 /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
-		10F03DAF19328D7400253288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10F03DB119328D7400253288 /* MTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTViewController.h; sourceTree = "<group>"; };
 		10F03DB219328D7400253288 /* MTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTViewController.m; sourceTree = "<group>"; };
 		10F03DB419328D7400253288 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +56,11 @@
 		10F03DC319328D7500253288 /* Car KeysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Car KeysTests-Info.plist"; sourceTree = "<group>"; };
 		10F03DC519328D7500253288 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10F03DC719328D7500253288 /* Car_KeysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car_KeysTests.m; sourceTree = "<group>"; };
+		10F03DD119328DED00253288 /* MTCarKeyiBeaconMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCarKeyiBeaconMonitor.h; sourceTree = "<group>"; };
+		10F03DD219328DEE00253288 /* MTCarKeyiBeaconMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCarKeyiBeaconMonitor.m; sourceTree = "<group>"; };
+		10F03DD4193295E800253288 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9542B3399A1C47E2A477899D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C211A52287324F5B9BBC5DC3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 				10F03D9F19328D7400253288 /* CoreGraphics.framework in Frameworks */,
 				10F03DA119328D7400253288 /* UIKit.framework in Frameworks */,
 				10F03D9D19328D7400253288 /* Foundation.framework in Frameworks */,
+				32D984052C8743C39956AE17 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +91,12 @@
 		10F03D9019328D7400253288 = {
 			isa = PBXGroup;
 			children = (
+				10F03DD4193295E800253288 /* Podfile */,
 				10F03DA219328D7400253288 /* Car Keys */,
 				10F03DC119328D7500253288 /* Car KeysTests */,
 				10F03D9B19328D7400253288 /* Frameworks */,
 				10F03D9A19328D7400253288 /* Products */,
+				C211A52287324F5B9BBC5DC3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +116,7 @@
 				10F03D9E19328D7400253288 /* CoreGraphics.framework */,
 				10F03DA019328D7400253288 /* UIKit.framework */,
 				10F03DBB19328D7500253288 /* XCTest.framework */,
+				9542B3399A1C47E2A477899D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,9 +126,11 @@
 			children = (
 				10F03DAB19328D7400253288 /* MTAppDelegate.h */,
 				10F03DAC19328D7400253288 /* MTAppDelegate.m */,
-				10F03DAE19328D7400253288 /* Main.storyboard */,
 				10F03DB119328D7400253288 /* MTViewController.h */,
 				10F03DB219328D7400253288 /* MTViewController.m */,
+				103EDBCD1932A12C0054AC37 /* MTViewController.xib */,
+				10F03DD119328DED00253288 /* MTCarKeyiBeaconMonitor.h */,
+				10F03DD219328DEE00253288 /* MTCarKeyiBeaconMonitor.m */,
 				10F03DB419328D7400253288 /* Images.xcassets */,
 				10F03DA319328D7400253288 /* Supporting Files */,
 			);
@@ -159,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10F03DCB19328D7500253288 /* Build configuration list for PBXNativeTarget "Car Keys" */;
 			buildPhases = (
+				F56CB3DDE7ED4558BB60714C /* Check Pods Manifest.lock */,
 				10F03D9519328D7400253288 /* Sources */,
 				10F03D9619328D7400253288 /* Frameworks */,
 				10F03D9719328D7400253288 /* Resources */,
+				A247BD84C96D47A2B370C370 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F03DB519328D7400253288 /* Images.xcassets in Resources */,
+				103EDBCE1932A12C0054AC37 /* MTViewController.xib in Resources */,
 				10F03DA719328D7400253288 /* InfoPlist.strings in Resources */,
-				10F03DB019328D7400253288 /* Main.storyboard in Resources */,
+				10F03DD5193295E800253288 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,11 +262,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A247BD84C96D47A2B370C370 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F56CB3DDE7ED4558BB60714C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10F03D9519328D7400253288 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F03DD319328DEE00253288 /* MTCarKeyiBeaconMonitor.m in Sources */,
 				10F03DA919328D7400253288 /* main.m in Sources */,
 				10F03DB319328D7400253288 /* MTViewController.m in Sources */,
 				10F03DAD19328D7400253288 /* MTAppDelegate.m in Sources */,
@@ -281,14 +332,6 @@
 				10F03DA619328D7400253288 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		10F03DAE19328D7400253288 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10F03DAF19328D7400253288 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		10F03DC419328D7500253288 /* InfoPlist.strings */ = {
@@ -374,6 +417,7 @@
 		};
 		10F03DCC19328D7500253288 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C211A52287324F5B9BBC5DC3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +431,7 @@
 		};
 		10F03DCD19328D7500253288 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C211A52287324F5B9BBC5DC3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +502,7 @@
 				10F03DCD19328D7500253288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10F03DCE19328D7500253288 /* Build configuration list for PBXNativeTarget "Car KeysTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +511,7 @@
 				10F03DD019328D7500253288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
